@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage>
               width: MediaQuery.of(context).size.width,
               height: 50.0,
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.white,
                 borderRadius: BorderRadius.circular(30.0),
                 border: Border.all(color: Colors.grey, width: 0.5),
               ),
@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage>
                     Text(
                       "Search Here",
                       style: TextStyle(
-                        color: Colors.grey,
+                        color: Colors.black,
                         fontFamily: 'OpenSans',
                       ),
                     ),
